@@ -126,7 +126,7 @@ class Follow():
             
 
             angular =  2.0*x2 / (euclidDist**2)
-            self.vel.angular.z = angular / 3
+            self.vel.angular.z = angular 
 
             self.vel.linear.x = self.velocityCalc(euclidDist/6, euclidDist) 
             
